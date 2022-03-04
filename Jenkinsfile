@@ -1,6 +1,6 @@
-pipeline
+pipeline {
    agent 'any'
-    stages{
+    stages {
 	 stage("stage1") {
 	    steps {
 	  script {
@@ -9,3 +9,4 @@ pipeline
 			}
 		}
 	}
+}
